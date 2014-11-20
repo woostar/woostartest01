@@ -2,8 +2,8 @@
  
 import (
     "net/http"
-    "text/template"
-    "html"
+    "html/template"
+   
 )
  
 var mainTemplate, _ = template.ParseFiles("topics.html")
